@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+   /* إضافة بعض التباعد بين البطاقات */
+   .card {
+    transition: transform 2 s ease; /* تأثير الانتقال عند التمرير */
+}
+.card:hover {
+    transform: scale(1.05); /* تكبير البطاقة عند المرور عليها */
+}
+
+   /* تأثيرات إضافية عند التمرير */
+   .fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.fade-in.visible {
+    opacity: 1;
+}
+
+.text-nav{
+    color: aquamarine;
+}
+
+.mezo{
+    background-color: #495057;
+}
+    /* تغيير مظهر الزر */
+    .custom-btn {
+        background-color: #343a40; /* لون الخلفية */
+        color: white; /* لون النص */
+        border: none; /* إزالة الحدود */
+    }
+
+    .custom-btn:hover {
+        background-color: #495057; /* لون الخلفية عند المرور بالفأرة */
+    }
+
+    /* تغيير مظهر الفقرة */
+    .custom-p {
+        color: #007bff; /* لون النص */
+        font-size: 1.5rem; /* حجم الخط */
+        font-weight: bold; /* سمك الخط */
+    }
